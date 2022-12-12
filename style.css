@@ -1,3 +1,39 @@
 body {
+   background-color: #EFE4F1;
+  }
+h1{
+  font-family: merriweather;
+  color:#B39DDB;
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 2px 2px #F06292; 
+}
+img:hover {
+  width: 500px;
+}
+img {
+  width: 300px;
+}
+img{}
 
+nav {
+ list-style-type: none;
+ position: fixed;
+  background-color: #B39DDB;
+    width: 100%;
+  top: 0;
+  left: 0;
+}
+li {
+  display: inline;
+  padding: 15px;
+  float: left;
+}
+  li:hover{
+    background-color: #F06292;
+}
+
+a{
+  text-decoration: none;
+  color: #EFE4F1;
 }
